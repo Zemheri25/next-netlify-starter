@@ -1,0 +1,118 @@
+.detailsmain {
+    display: flex;
+    gap: 2rem;
+}
+
+.imagesdiv {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.imagediv {
+    height: 5rem;
+    width: 5rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    border: 1px solid black;
+    cursor: pointer;
+
+}
+
+.imagemain {
+    
+    margin-left: 10vw;
+}
+
+.imagemain img {
+    height: 70vh;
+}
+
+.informationmain {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(252, 247, 247);
+    margin-left: 2rem;
+    margin-top: 15vh;
+    width: 30vw;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.productname {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detailsnamediv {
+    width: 60%;
+}
+
+.originalmain {
+    display: flex;
+    justify-content: space-between;
+}
+
+.original {
+    display: flex;
+    width: 35%;
+    gap: 1rem;
+}
+.original p {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.fiyat {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.addbasketbutton {
+    width: 100%;
+    height: 5vh;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.model {
+    margin-top: 0.6rem;
+}
+
+.description2 {
+    padding: 2rem;
+}
+
+@media (max-width : 844px) {
+    .detailsmain {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .informationmain {
+        width: 100vw;
+        margin: 0rem auto;
+        
+    }
+
+    .imagemain img {
+        height: 40vh;
+        
+    }
+
+    .imagesdiv {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+
+}
